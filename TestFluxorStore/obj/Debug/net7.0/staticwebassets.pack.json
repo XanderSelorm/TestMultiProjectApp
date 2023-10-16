@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\XanderSelorm\\source\\repos\\TestMultiApp\\TestFluxorStore\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "C:\\Users\\XanderSelorm\\source\\repos\\TestMultiApp\\TestFluxorStore\\wwwroot\\exampleJsInterop.js",
+      "PackagePath": "staticwebassets\\exampleJsInterop.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.TestFluxorStore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.TestFluxorStore.props",
+      "PackagePath": "build\\TestFluxorStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.TestFluxorStore.props",
+      "PackagePath": "buildMultiTargeting\\TestFluxorStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.TestFluxorStore.props",
+      "PackagePath": "buildTransitive\\TestFluxorStore.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

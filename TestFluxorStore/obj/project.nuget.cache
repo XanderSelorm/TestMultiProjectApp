@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "jhUmDfp33IW0kI/EE87oboWCsYCJJ1gTY2Qkh83MSj24xJJJmIiZiC0N2db6wOUpzyI+0J1bBKOWEi77pBdmvw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\XanderSelorm\\source\\repos\\TestMultiApp\\TestFluxorStore\\TestFluxorStore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\XanderSelorm\\.nuget\\packages\\fluxor\\5.9.1\\fluxor.5.9.1.nupkg.sha512",
+    "C:\\Users\\XanderSelorm\\.nuget\\packages\\fluxor.blazor.web\\5.9.1\\fluxor.blazor.web.5.9.1.nupkg.sha512",
+    "C:\\Users\\XanderSelorm\\.nuget\\packages\\fluxor.blazor.web.reduxdevtools\\5.9.1\\fluxor.blazor.web.reduxdevtools.5.9.1.nupkg.sha512",
+    "C:\\Users\\XanderSelorm\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.5\\microsoft.aspnetcore.authorization.7.0.5.nupkg.sha512",
+    "C:\\Users\\XanderSelorm\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.5\\microsoft.aspnetcore.components.7.0.5.nupkg.sha512",
+    "C:\\Users\\XanderSelorm\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\7.0.5\\microsoft.aspnetcore.components.analyzers.7.0.5.nupkg.sha512",
+    "C:\\Users\\XanderSelorm\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\7.0.5\\microsoft.aspnetcore.components.forms.7.0.5.nupkg.sha512",
+    "C:\\Users\\XanderSelorm\\.nuget\\packages\\microsoft.aspnetcore.components.web\\7.0.5\\microsoft.aspnetcore.components.web.7.0.5.nupkg.sha512",
+    "C:\\Users\\XanderSelorm\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.5\\microsoft.aspnetcore.metadata.7.0.5.nupkg.sha512",
+    "C:\\Users\\XanderSelorm\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\XanderSelorm\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\XanderSelorm\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\XanderSelorm\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
+    "C:\\Users\\XanderSelorm\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\XanderSelorm\\.nuget\\packages\\microsoft.jsinterop\\7.0.5\\microsoft.jsinterop.7.0.5.nupkg.sha512",
+    "C:\\Users\\XanderSelorm\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\XanderSelorm\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

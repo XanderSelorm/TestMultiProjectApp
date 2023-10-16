@@ -1,0 +1,16 @@
+﻿@page "/"
+@using TestFluxorStore.Features.Test.LoadTests.Actions;
+@inherits Fluxor.Blazor.Web.Components.FluxorComponent
+
+<h1>Hello, world! MAUI Page</h1>
+
+Welcome to your new app.
+
+<ul>
+    @foreach(string test in TestState.Value.Tests)
+    {
+        <li>@test</li>
+    }
+</ul>
+
+

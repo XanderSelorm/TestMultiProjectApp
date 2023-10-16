@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\XanderSelorm\\source\\repos\\TestMultiApp\\TestClassLibrary\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TestClassLibrary.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TestClassLibrary.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\XanderSelorm\\source\\repos\\TestMultiApp\\TestClassLibrary\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "C:\\Users\\XanderSelorm\\source\\repos\\TestMultiApp\\TestClassLibrary\\wwwroot\\exampleJsInterop.js",
+      "PackagePath": "staticwebassets\\exampleJsInterop.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.TestClassLibrary.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.TestClassLibrary.props",
+      "PackagePath": "build\\TestClassLibrary.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.TestClassLibrary.props",
+      "PackagePath": "buildMultiTargeting\\TestClassLibrary.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.TestClassLibrary.props",
+      "PackagePath": "buildTransitive\\TestClassLibrary.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
