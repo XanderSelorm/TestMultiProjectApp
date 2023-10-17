@@ -2,7 +2,7 @@
 
 using UIKit;
 
-namespace TestBlazorMaui;
+namespace TestBlazorMaui.Platforms.iOS;
 public class Program
 {
     // This is the main entry point of the application.

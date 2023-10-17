@@ -8,6 +8,9 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Maui.Controls.Xaml.dll",
 		"Microsoft.Maui.Controls.dll",
 		"Microsoft.Maui.Essentials.dll",
+		"Fluxor.dll",
+		"Fluxor.Blazor.Web.dll",
+		"Fluxor.Blazor.Web.ReduxDevTools.dll",
 		"GoogleGson.dll",
 		"Microsoft.AspNetCore.Authorization.dll",
 		"Microsoft.AspNetCore.Components.dll",
@@ -28,6 +31,7 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Extensions.FileProviders.Embedded.dll",
 		"Microsoft.Extensions.FileProviders.Physical.dll",
 		"Microsoft.Extensions.FileSystemGlobbing.dll",
+		"Microsoft.Extensions.Http.dll",
 		"Microsoft.Extensions.Logging.dll",
 		"Microsoft.Extensions.Logging.Abstractions.dll",
 		"Microsoft.Extensions.Logging.Debug.dll",
@@ -35,6 +39,10 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Extensions.Primitives.dll",
 		"Microsoft.JSInterop.dll",
 		"Microsoft.Maui.Graphics.dll",
+		"Newtonsoft.Json.dll",
+		"Refit.dll",
+		"Refit.HttpClientFactory.dll",
+		"Refit.Xml.dll",
 		"System.IO.Pipelines.dll",
 		"Xamarin.Android.Glide.dll",
 		"Xamarin.Android.Glide.Annotations.dll",
@@ -118,6 +126,7 @@ public class MonoPackageManager_Resources {
 		"Xamarin.KotlinX.Coroutines.Android.dll",
 		"Xamarin.KotlinX.Coroutines.Core.Jvm.dll",
 		"TestClassLibrary.dll",
+		"TestFluxorStore.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};

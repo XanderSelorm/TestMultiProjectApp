@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace TestBlazorMaui;
+namespace TestBlazorMaui.Platforms.MacCatalyst;
 [Register("AppDelegate")]
 public class AppDelegate : MauiUIApplicationDelegate
 {

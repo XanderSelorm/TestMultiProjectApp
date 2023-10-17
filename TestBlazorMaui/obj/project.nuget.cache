@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eM1bXoPw+fNwInQqs7HMAhQ3vJd+yC4ZqNP2is5ckYWEckdR0B4WQZwLOV2sI13hHyhAisyalXH6cKj4rGnspQ==",
+  "dgSpecHash": "QEHrA2MI0SZ9cYY5T2LhVgdQ9ZkT9jMY6R+crrIG5LUcewiiIQr+Ogo0STldGWP3aUXYulyPs/PreN8ET03tmQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\XanderSelorm\\source\\repos\\TestMultiApp\\TestBlazorMaui\\TestBlazorMaui.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "C:\\Users\\XanderSelorm\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\7.0.0\\microsoft.extensions.fileproviders.embedded.7.0.0.nupkg.sha512",
     "C:\\Users\\XanderSelorm\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\7.0.0\\microsoft.extensions.fileproviders.physical.7.0.0.nupkg.sha512",
     "C:\\Users\\XanderSelorm\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\7.0.0\\microsoft.extensions.filesystemglobbing.7.0.0.nupkg.sha512",
+    "C:\\Users\\XanderSelorm\\.nuget\\packages\\microsoft.extensions.http\\6.0.0\\microsoft.extensions.http.6.0.0.nupkg.sha512",
     "C:\\Users\\XanderSelorm\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "C:\\Users\\XanderSelorm\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\XanderSelorm\\.nuget\\packages\\microsoft.extensions.logging.debug\\7.0.0\\microsoft.extensions.logging.debug.7.0.0.nupkg.sha512",
@@ -40,7 +41,11 @@
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.755\\microsoft.windows.sdk.buildtools.10.0.22621.755.nupkg.sha512",
     "C:\\Users\\XanderSelorm\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221209.1\\microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512",
     "C:\\Users\\XanderSelorm\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\XanderSelorm\\.nuget\\packages\\refit\\6.3.2\\refit.6.3.2.nupkg.sha512",
+    "C:\\Users\\XanderSelorm\\.nuget\\packages\\refit.httpclientfactory\\6.3.2\\refit.httpclientfactory.6.3.2.nupkg.sha512",
+    "C:\\Users\\XanderSelorm\\.nuget\\packages\\refit.xml\\6.3.2\\refit.xml.6.3.2.nupkg.sha512",
     "C:\\Users\\XanderSelorm\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
+    "C:\\Users\\XanderSelorm\\.nuget\\packages\\system.net.http.json\\6.0.0\\system.net.http.json.6.0.0.nupkg.sha512",
     "C:\\Users\\XanderSelorm\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\XanderSelorm\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
     "C:\\Users\\XanderSelorm\\.nuget\\packages\\xamarin.android.glide\\4.13.2.2\\xamarin.android.glide.4.13.2.2.nupkg.sha512",

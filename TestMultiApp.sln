@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestMultiApp", "TestMultiApp\TestMultiApp.csproj", "{89E88B89-9253-4F1F-A3C0-012B8D9608DF}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestClassLibrary", "TestClassLibrary\TestClassLibrary.csproj", "{07C66C79-D5BB-4E80-8148-77B4E9419933}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestBlazorMaui", "TestBlazorMaui\TestBlazorMaui.csproj", "{6E3F610C-1B07-463B-A08E-08C7D5F532A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFluxorStore", "TestFluxorStore\TestFluxorStore.csproj", "{406CF381-B60A-4AE5-9847-2D36CFB3FACD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestFluxorStore", "TestFluxorStore\TestFluxorStore.csproj", "{406CF381-B60A-4AE5-9847-2D36CFB3FACD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{89E88B89-9253-4F1F-A3C0-012B8D9608DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{89E88B89-9253-4F1F-A3C0-012B8D9608DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{89E88B89-9253-4F1F-A3C0-012B8D9608DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{89E88B89-9253-4F1F-A3C0-012B8D9608DF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{07C66C79-D5BB-4E80-8148-77B4E9419933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{07C66C79-D5BB-4E80-8148-77B4E9419933}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07C66C79-D5BB-4E80-8148-77B4E9419933}.Release|Any CPU.ActiveCfg = Release|Any CPU

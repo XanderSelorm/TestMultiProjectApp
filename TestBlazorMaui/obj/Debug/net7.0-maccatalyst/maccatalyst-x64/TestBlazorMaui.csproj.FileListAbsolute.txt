@@ -1,7 +1,11 @@
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\TestClassLibrary.staticwebassets.runtime.json
+C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\TestFluxorStore.staticwebassets.runtime.json
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\TestBlazorMaui.runtimeconfig.json
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\TestBlazorMaui.dll
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\TestBlazorMaui.pdb
+C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Fluxor.dll
+C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Fluxor.Blazor.Web.dll
+C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Fluxor.Blazor.Web.ReduxDevTools.dll
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.AspNetCore.Authorization.dll
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.AspNetCore.Components.dll
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.AspNetCore.Components.Forms.dll
@@ -21,6 +25,7 @@ C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.FileProviders.Embedded.dll
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.FileProviders.Physical.dll
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Http.dll
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Logging.dll
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Logging.Debug.dll
@@ -28,6 +33,10 @@ C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Primitives.dll
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.JSInterop.dll
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Graphics.dll
+C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Newtonsoft.Json.dll
+C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Refit.dll
+C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Refit.HttpClientFactory.dll
+C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Refit.Xml.dll
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.IO.Pipelines.dll
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.CSharp.dll
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.VisualBasic.Core.dll
@@ -232,7 +241,9 @@ C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet.a
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet.dylib
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\TestClassLibrary.dll
+C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\TestFluxorStore.dll
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\TestClassLibrary.pdb
+C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\TestFluxorStore.pdb
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\staticwebassets\msbuild.TestBlazorMaui.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\staticwebassets\msbuild.build.TestBlazorMaui.props
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestBlazorMaui\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\staticwebassets\msbuild.buildMultiTargeting.TestBlazorMaui.props

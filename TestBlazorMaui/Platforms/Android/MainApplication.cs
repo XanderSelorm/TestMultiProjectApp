@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace TestBlazorMaui;
+namespace TestBlazorMaui.Platforms.Android;
 [Application]
 public class MainApplication : MauiApplication
 {

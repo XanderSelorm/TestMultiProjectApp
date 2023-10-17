@@ -595,6 +595,18 @@
             "Microsoft.AspNetCore.Components.Web": {
               "target": "Package",
               "version": "[7.0.5, )"
+            },
+            "Refit": {
+              "target": "Package",
+              "version": "[6.3.2, )"
+            },
+            "Refit.HttpClientFactory": {
+              "target": "Package",
+              "version": "[6.3.2, )"
+            },
+            "Refit.Xml": {
+              "target": "Package",
+              "version": "[6.3.2, )"
             }
           },
           "imports": [

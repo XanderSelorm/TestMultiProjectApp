@@ -1,21 +1,35 @@
 <Project Sdk="Microsoft.NET.Sdk.Razor">
 
-  <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Core\Features\Shared\Responses\**" />
+	  <Content Remove="Core\Features\Shared\Responses\**" />
+	  <EmbeddedResource Remove="Core\Features\Shared\Responses\**" />
+	  <None Remove="Core\Features\Shared\Responses\**" />
+	</ItemGroup>
 
 
-  <ItemGroup>
-    <SupportedPlatform Include="browser" />
-  </ItemGroup>
+	<ItemGroup>
+		<SupportedPlatform Include="browser" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Fluxor" Version="5.9.1" />
-    <PackageReference Include="Fluxor.Blazor.Web" Version="5.9.1" />
-    <PackageReference Include="Fluxor.Blazor.Web.ReduxDevTools" Version="5.9.1" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="7.0.5" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Fluxor" Version="5.9.1" />
+		<PackageReference Include="Fluxor.Blazor.Web" Version="5.9.1" />
+		<PackageReference Include="Fluxor.Blazor.Web.ReduxDevTools" Version="5.9.1" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="7.0.5" />
+		<PackageReference Include="Refit" Version="6.3.2" />
+		<PackageReference Include="Refit.HttpClientFactory" Version="6.3.2" />
+		<PackageReference Include="Refit.Xml" Version="6.3.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Core\Entities\" />
+	</ItemGroup>
 
 </Project>

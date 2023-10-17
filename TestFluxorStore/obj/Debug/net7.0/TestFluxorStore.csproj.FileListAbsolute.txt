@@ -1,12 +1,12 @@
-C:\Users\XanderSelorm\source\repos\TestMultiApp\TestFluxorStore\bin\Debug\net7.0\TestFluxorStore.staticwebassets.runtime.json
-C:\Users\XanderSelorm\source\repos\TestMultiApp\TestFluxorStore\bin\Debug\net7.0\TestFluxorStore.deps.json
-C:\Users\XanderSelorm\source\repos\TestMultiApp\TestFluxorStore\bin\Debug\net7.0\TestFluxorStore.dll
-C:\Users\XanderSelorm\source\repos\TestMultiApp\TestFluxorStore\bin\Debug\net7.0\TestFluxorStore.pdb
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestFluxorStore\obj\Debug\net7.0\TestFluxorStore.csproj.AssemblyReference.cache
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestFluxorStore\obj\Debug\net7.0\TestFluxorStore.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestFluxorStore\obj\Debug\net7.0\TestFluxorStore.AssemblyInfoInputs.cache
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestFluxorStore\obj\Debug\net7.0\TestFluxorStore.AssemblyInfo.cs
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestFluxorStore\obj\Debug\net7.0\TestFluxorStore.csproj.CoreCompileInputs.cache
+C:\Users\XanderSelorm\source\repos\TestMultiApp\TestFluxorStore\bin\Debug\net7.0\TestFluxorStore.staticwebassets.runtime.json
+C:\Users\XanderSelorm\source\repos\TestMultiApp\TestFluxorStore\bin\Debug\net7.0\TestFluxorStore.deps.json
+C:\Users\XanderSelorm\source\repos\TestMultiApp\TestFluxorStore\bin\Debug\net7.0\TestFluxorStore.dll
+C:\Users\XanderSelorm\source\repos\TestMultiApp\TestFluxorStore\bin\Debug\net7.0\TestFluxorStore.pdb
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestFluxorStore\obj\Debug\net7.0\staticwebassets\msbuild.TestFluxorStore.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestFluxorStore\obj\Debug\net7.0\staticwebassets\msbuild.build.TestFluxorStore.props
 C:\Users\XanderSelorm\source\repos\TestMultiApp\TestFluxorStore\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.TestFluxorStore.props

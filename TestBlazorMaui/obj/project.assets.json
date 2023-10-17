@@ -423,6 +423,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -557,6 +576,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -571,6 +643,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -2362,7 +2453,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -2794,6 +2888,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -2928,6 +3041,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -2942,6 +3108,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -4727,7 +4912,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -5159,6 +5347,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -5293,6 +5500,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -5307,6 +5567,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -7092,7 +7371,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -7524,6 +7806,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -7658,6 +7959,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -7672,6 +8026,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -9457,7 +9830,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -9889,6 +10265,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -10023,6 +10418,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -10037,6 +10485,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -11822,7 +12289,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -12254,6 +12724,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -12388,6 +12877,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -12402,6 +12944,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -14187,7 +14748,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -14619,6 +15183,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -14753,6 +15336,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -14767,6 +15403,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -16552,7 +17207,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -16984,6 +17642,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17118,6 +17795,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -17132,6 +17862,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -18917,7 +19666,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -19336,6 +20088,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -19470,6 +20241,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -19484,6 +20308,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -19547,7 +20390,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -19966,6 +20812,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20100,6 +20965,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -20114,6 +21032,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -20171,7 +21108,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -20590,6 +21530,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20724,6 +21683,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -20738,6 +21750,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -20795,7 +21826,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -21214,6 +22248,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -21348,6 +22401,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -21362,6 +22468,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -21419,7 +22544,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -21838,6 +22966,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -21972,6 +23119,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -21986,6 +23186,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -22043,7 +23262,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -22462,6 +23684,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -22596,6 +23837,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -22610,6 +23904,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -22667,7 +23980,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -23086,6 +24402,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -23220,6 +24555,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -23234,6 +24622,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -23291,7 +24698,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -23710,6 +25120,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -23844,6 +25273,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -23858,6 +25340,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -23915,7 +25416,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -24334,6 +25838,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -24468,6 +25991,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -24482,6 +26058,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -24545,7 +26140,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -24964,6 +26562,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -25098,6 +26715,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -25112,6 +26782,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -25169,7 +26858,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -25588,6 +27280,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -25722,6 +27433,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -25736,6 +27500,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -25793,7 +27576,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -26212,6 +27998,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -26346,6 +28151,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -26360,6 +28218,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -26417,7 +28294,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -26836,6 +28716,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -26970,6 +28869,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -26984,6 +28936,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -27041,7 +29012,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -27460,6 +29434,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -27594,6 +29587,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -27608,6 +29654,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -27665,7 +29730,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -28084,6 +30152,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -28218,6 +30305,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -28232,6 +30372,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -28289,7 +30448,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -28708,6 +30870,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -28842,6 +31023,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -28856,6 +31090,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -28913,7 +31166,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -29332,6 +31588,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -29604,6 +31879,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -29618,6 +31946,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -29681,7 +32028,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -30100,6 +32450,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -30344,6 +32713,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -30358,6 +32780,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -30415,7 +32856,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -30834,6 +33278,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -31078,6 +33541,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -31092,6 +33608,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -31149,7 +33684,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -31568,6 +34106,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -31812,6 +34369,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -31826,6 +34436,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -31883,7 +34512,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -32302,6 +34934,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -32546,6 +35197,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -32560,6 +35264,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -32617,7 +35340,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -33036,6 +35762,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -33280,6 +36025,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -33294,6 +36092,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -33351,7 +36168,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -33770,6 +36590,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -34014,6 +36853,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -34028,6 +36920,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -34085,7 +36996,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -34504,6 +37418,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -34754,6 +37687,59 @@
           }
         }
       },
+      "Refit/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refit.Xml/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Refit": "6.3.2"
+        },
+        "compile": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Refit.Xml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -34768,6 +37754,25 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -34825,7 +37830,10 @@
           "Fluxor": "5.9.1",
           "Fluxor.Blazor.Web": "5.9.1",
           "Fluxor.Blazor.Web.ReduxDevTools": "5.9.1",
-          "Microsoft.AspNetCore.Components.Web": "7.0.5"
+          "Microsoft.AspNetCore.Components.Web": "7.0.5",
+          "Refit": "6.3.2",
+          "Refit.HttpClientFactory": "6.3.2",
+          "Refit.Xml": "6.3.2"
         },
         "compile": {
           "bin/placeholder/TestFluxorStore.dll": {}
@@ -35390,6 +38398,25 @@
         "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.xml",
         "microsoft.extensions.filesystemglobbing.7.0.0.nupkg.sha512",
         "microsoft.extensions.filesystemglobbing.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Http/6.0.0": {
+      "sha512": "15+pa2G0bAMHbHewaQIdr/y6ag2H3yh4rd9hTXavtWDzQBkvpe2RMqFg8BxDpcQWssmjmBApGPcw93QRz6YcMg==",
+      "type": "package",
+      "path": "microsoft.extensions.http/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Http.dll",
+        "lib/net461/Microsoft.Extensions.Http.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Http.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Http.xml",
+        "microsoft.extensions.http.6.0.0.nupkg.sha512",
+        "microsoft.extensions.http.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -36538,6 +39565,73 @@
         "packageIcon.png"
       ]
     },
+    "Refit/6.3.2": {
+      "sha512": "HxysoLBknW2FdxNXr56NjnfuxbgNh9z2QsUc9y5QtPkXSAWmShpUWDM1G+3Ls2yTyb4sItOii4gZ+GjxKkR7+A==",
+      "type": "package",
+      "path": "refit/6.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/roslyn3.8/cs/InterfaceStubGeneratorV1.dll",
+        "analyzers/dotnet/roslyn4.0/cs/InterfaceStubGeneratorV2.dll",
+        "build/netstandard2.0/refit.targets",
+        "buildTransitive/netstandard2.0/refit.props",
+        "buildTransitive/netstandard2.0/refit.targets",
+        "lib/net461/Refit.dll",
+        "lib/net461/Refit.xml",
+        "lib/net5.0/Refit.dll",
+        "lib/net5.0/Refit.xml",
+        "lib/net6.0/Refit.dll",
+        "lib/net6.0/Refit.xml",
+        "lib/netstandard2.0/Refit.dll",
+        "lib/netstandard2.0/Refit.xml",
+        "lib/netstandard2.1/Refit.dll",
+        "lib/netstandard2.1/Refit.xml",
+        "refit.6.3.2.nupkg.sha512",
+        "refit.nuspec",
+        "refit_logo.png"
+      ]
+    },
+    "Refit.HttpClientFactory/6.3.2": {
+      "sha512": "B+lvCus6p45hrBU6cNjnUNogtuTRMVyUv0tqQCgRR1K+oYWE7XGCl49Y76WKaBj4Pffsswpbr2uUjIzFFGxfeQ==",
+      "type": "package",
+      "path": "refit.httpclientfactory/6.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/Refit.HttpClientFactory.dll",
+        "lib/net5.0/Refit.HttpClientFactory.xml",
+        "lib/net6.0/Refit.HttpClientFactory.dll",
+        "lib/net6.0/Refit.HttpClientFactory.xml",
+        "lib/netcoreapp3.1/Refit.HttpClientFactory.dll",
+        "lib/netcoreapp3.1/Refit.HttpClientFactory.xml",
+        "lib/netstandard2.0/Refit.HttpClientFactory.dll",
+        "lib/netstandard2.0/Refit.HttpClientFactory.xml",
+        "refit.httpclientfactory.6.3.2.nupkg.sha512",
+        "refit.httpclientfactory.nuspec",
+        "refit_logo.png"
+      ]
+    },
+    "Refit.Xml/6.3.2": {
+      "sha512": "1NNt8VYy0+N6ZDuBsMv4UnkiufoGCInCh2OHtS6J2Luj4fUJqfhPWjawJo2xgqOI3V3UPUQnU4b+lAr6Fevwxw==",
+      "type": "package",
+      "path": "refit.xml/6.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Refit.Xml.dll",
+        "lib/net461/Refit.Xml.xml",
+        "lib/net5.0/Refit.Xml.dll",
+        "lib/net5.0/Refit.Xml.xml",
+        "lib/net6.0/Refit.Xml.dll",
+        "lib/net6.0/Refit.Xml.xml",
+        "lib/netstandard2.0/Refit.Xml.dll",
+        "lib/netstandard2.0/Refit.Xml.xml",
+        "refit.xml.6.3.2.nupkg.sha512",
+        "refit.xml.nuspec",
+        "refit_logo.png"
+      ]
+    },
     "System.IO.Pipelines/7.0.0": {
       "sha512": "jRn6JYnNPW6xgQazROBLSfpdoczRw694vO5kKvMcNnpXuolEixUyw6IBuBs2Y2mlSX/LdLvyyWmfXhaI3ND1Yg==",
       "type": "package",
@@ -36562,6 +39656,31 @@
         "lib/netstandard2.0/System.IO.Pipelines.xml",
         "system.io.pipelines.7.0.0.nupkg.sha512",
         "system.io.pipelines.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Net.Http.Json/6.0.0": {
+      "sha512": "GbIV4y344kGOKjshAKCIDCMUTTW/hyUC42wV0Y5SXEdIbaKBIHBUxZ2MOe4/ZiV2svUAGfQ0c8LGtUExpOI8tg==",
+      "type": "package",
+      "path": "system.net.http.json/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Net.Http.Json.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Net.Http.Json.dll",
+        "lib/net461/System.Net.Http.Json.xml",
+        "lib/net5.0/System.Net.Http.Json.dll",
+        "lib/net5.0/System.Net.Http.Json.xml",
+        "lib/net6.0/System.Net.Http.Json.dll",
+        "lib/net6.0/System.Net.Http.Json.xml",
+        "lib/netstandard2.0/System.Net.Http.Json.dll",
+        "lib/netstandard2.0/System.Net.Http.Json.xml",
+        "system.net.http.json.6.0.0.nupkg.sha512",
+        "system.net.http.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
