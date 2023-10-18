@@ -1,88 +1,11 @@
 {
   "Version": 1,
-  "Hash": "ugjjYeke24USKZ1FHYZ2QRbUloXGpmEAm/QiWAk9xB4=",
+  "Hash": "cfrkADSkxkzMnoFYEa/EEkrSFAq5X7eIF4aIfXacjJw=",
   "Source": "TestClassLibrary",
   "BasePath": "_content/TestClassLibrary",
   "Mode": "Default",
   "ManifestType": "Publish",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [
-    {
-      "Name": "TestClassLibrary\\wwwroot",
-      "Source": "TestClassLibrary",
-      "ContentRoot": "C:\\Users\\XanderSelorm\\source\\repos\\TestMultiApp\\TestClassLibrary\\wwwroot\\",
-      "BasePath": "_content/TestClassLibrary",
-      "Pattern": "**"
-    }
-  ],
-  "Assets": [
-    {
-      "Identity": "C:\\Users\\XanderSelorm\\source\\repos\\TestMultiApp\\TestClassLibrary\\obj\\Debug\\net7.0\\scopedcss\\bundle\\TestClassLibrary.styles.css",
-      "SourceId": "TestClassLibrary",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\XanderSelorm\\source\\repos\\TestMultiApp\\TestClassLibrary\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/TestClassLibrary",
-      "RelativePath": "TestClassLibrary.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\XanderSelorm\\source\\repos\\TestMultiApp\\TestClassLibrary\\obj\\Debug\\net7.0\\scopedcss\\bundle\\TestClassLibrary.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\XanderSelorm\\source\\repos\\TestMultiApp\\TestClassLibrary\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TestClassLibrary.bundle.scp.css",
-      "SourceId": "TestClassLibrary",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\XanderSelorm\\source\\repos\\TestMultiApp\\TestClassLibrary\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/TestClassLibrary",
-      "RelativePath": "TestClassLibrary.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\XanderSelorm\\source\\repos\\TestMultiApp\\TestClassLibrary\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TestClassLibrary.bundle.scp.css"
-    },
-    {
-      "Identity": "C:\\Users\\XanderSelorm\\source\\repos\\TestMultiApp\\TestClassLibrary\\wwwroot\\background.png",
-      "SourceId": "TestClassLibrary",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\XanderSelorm\\source\\repos\\TestMultiApp\\TestClassLibrary\\wwwroot\\",
-      "BasePath": "_content/TestClassLibrary",
-      "RelativePath": "background.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\background.png"
-    },
-    {
-      "Identity": "C:\\Users\\XanderSelorm\\source\\repos\\TestMultiApp\\TestClassLibrary\\wwwroot\\exampleJsInterop.js",
-      "SourceId": "TestClassLibrary",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\XanderSelorm\\source\\repos\\TestMultiApp\\TestClassLibrary\\wwwroot\\",
-      "BasePath": "_content/TestClassLibrary",
-      "RelativePath": "exampleJsInterop.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
-    }
-  ]
+  "DiscoveryPatterns": [],
+  "Assets": []
 }

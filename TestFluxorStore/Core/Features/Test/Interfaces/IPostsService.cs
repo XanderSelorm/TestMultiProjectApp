@@ -11,7 +11,7 @@ namespace TestFluxorStore.Core.Features.Test.Interfaces;
 public interface IPostsService
 {
   [Get("/posts")]
-  Task<GetResponseEnvelop<List<Post>>> GetPostsAsync();
+  Task<List<Post>> GetPostsAsync();
 
   [Post("/posts")]
   Task<Post> AddNewPostAsync(Post request);

@@ -1,4 +1,5 @@
 ﻿@page "/"
+@using TestFluxorStore.Core.Features.Test.DTOs;
 @using TestFluxorStore.Features.Test.LoadTests.Actions;
 @inherits Fluxor.Blazor.Web.Components.FluxorComponent
 
@@ -7,9 +8,9 @@
 Welcome to your new app.
 
 <ul>
-    @foreach(string test in TestState.Value.Tests)
+    @foreach(Post post in TestState.Value.Posts)
     {
-        <li>@test</li>
+        <li>@post.Title</li>
     }
 </ul>
 

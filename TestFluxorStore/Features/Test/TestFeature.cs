@@ -2,6 +2,7 @@
 
 using Fluxor;
 
+using TestFluxorStore.Core.Features.Test.DTOs;
 using TestFluxorStore.State;
 
 namespace TestFluxorStore.Features.Test;
@@ -16,5 +17,6 @@ public class InventoryFeature : Feature<TestState>
         CurrentErrorMessage = string.Empty,
 
         Tests = new List<string>(),
+        Posts = new List<Post>(),
     };
 }

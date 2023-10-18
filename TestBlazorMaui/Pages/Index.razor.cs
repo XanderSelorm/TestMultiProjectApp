@@ -3,6 +3,7 @@ using TestFluxorStore.Features.Test.LoadTests.Actions;
 using Fluxor;
 using TestFluxorStore.State;
 using IDispatcher = Fluxor.IDispatcher;
+using TestFluxorStore.Features.Test.LoadPosts.Actions;
 
 namespace TestBlazorMaui.Pages
 {
@@ -16,7 +17,7 @@ namespace TestBlazorMaui.Pages
         protected override void OnInitialized()
         {
             base.OnInitialized();
-            Dispatcher.Dispatch(new LoadTestsAction());
+            Dispatcher.Dispatch(new LoadPostsAction());
         }
     }
 }

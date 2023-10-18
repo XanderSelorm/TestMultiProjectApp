@@ -2,9 +2,13 @@
 
 using Microsoft.Extensions.Logging;
 
+using Refit;
+
 using System.Reflection;
 
 using TestBlazorMaui.Data;
+
+using TestFluxorStore.Core.Features.Test.Interfaces;
 
 namespace TestBlazorMaui;
 public static class MauiProgram
@@ -22,8 +26,8 @@ public static class MauiProgram
         builder.Services.AddMauiBlazorWebView();
 
 #if DEBUG
-		builder.Services.AddBlazorWebViewDeveloperTools();
-		builder.Logging.AddDebug();
+        builder.Services.AddBlazorWebViewDeveloperTools();
+        builder.Logging.AddDebug();
 #endif
 
         builder.Services.AddSingleton<WeatherForecastService>();
@@ -35,6 +39,14 @@ public static class MauiProgram
             options.ScanAssemblies(typeof(TestFluxorStore.TestFluxorStore).Assembly);
             options.UseReduxDevTools();
         });
+
+        builder.Services.AddTransient<AuthHeaderHandler>();
+
+        builder.Services
+       .AddRefitClient<IPostsService>()
+      .ConfigureHttpClient(c => c.BaseAddress = new Uri($"https://jsonplaceholder.typicode.com"))
+       .AddHttpMessageHandler<AuthHeaderHandler>();
+
 
         return builder.Build();
     }
